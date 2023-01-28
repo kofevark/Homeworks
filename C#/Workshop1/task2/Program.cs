@@ -9,4 +9,5 @@ int firstNumber = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите второе число: ");
 int secondNumber = int.Parse(Console.ReadLine());
 if (firstNumber > secondNumber) Console.WriteLine(firstNumber + " - это максимум, " + secondNumber + " - это минимум.");
+// if (firstNumber == secondNumber) Console.WriteLine("Лучше все же ввести разные числа");
 else Console.WriteLine(secondNumber + " - это максимум, " + firstNumber + " - это минимум.");
