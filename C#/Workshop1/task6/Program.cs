@@ -2,3 +2,9 @@
 // 4 -> да
 // -3 -> нет
 // 7 -> нет
+
+Console.Clear();
+Console.Write("Введите любое число: ");
+int number = int.Parse(Console.ReadLine());
+if (number % 2 == 0) Console.WriteLine("Число " + number + " это четное число.");
+else Console.WriteLine("Число " + number + " это нечетное число.");
