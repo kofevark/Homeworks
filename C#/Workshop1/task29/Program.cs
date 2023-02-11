@@ -1,8 +1,8 @@
 ﻿// Программа задает массив из 8 элементов и выводит их на экран
 
 Console.Clear();
-int[] array = new int[8]; //Создали пустой массив на 8 элементов
-GetArray(array);
+int[] array = new int[8]; // Создали пустой массив на 8 элементов
+GetArray(array); // Вызываем метод GetArray для массива array
 PrintArray(array);
 
 void GetArray(int[] arr) // Метод заполнения массива
