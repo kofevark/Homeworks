@@ -11,17 +11,17 @@ Console.WriteLine(("-------------").PadLeft(42)); // Подчеркнем для
 
 // В этом блоке для ввода координаты устанавливаем курсор в нужное место и оттуда считываем значение
 Console.Write("Введите координаты точки А:  ");
-int Ax = int.Parse(Console.ReadLine());
+int Ax = int.Parse(Console.ReadLine()!);
 Console.SetCursorPosition(35, 4);
-int Ay = int.Parse(Console.ReadLine());
+int Ay = int.Parse(Console.ReadLine()!);
 Console.SetCursorPosition(40, 4);
-int Az = int.Parse(Console.ReadLine());
+int Az = int.Parse(Console.ReadLine()!);
 Console.Write("Введите координаты точки B:  ");
-int Bx = int.Parse(Console.ReadLine());
+int Bx = int.Parse(Console.ReadLine()!);
 Console.SetCursorPosition(35, 5);
-int By = int.Parse(Console.ReadLine());
+int By = int.Parse(Console.ReadLine()!);
 Console.SetCursorPosition(40, 5);
-int Bz = int.Parse(Console.ReadLine());
+int Bz = int.Parse(Console.ReadLine()!);
 
 // Вычислим расстояние между точками и округлим полученный результат
 double S = Math.Round(Math.Sqrt(Math.Pow(Ax - Bx, 2) + Math.Pow(Ay - By, 2) + Math.Pow(Az - Bz, 2)), 2);

@@ -5,7 +5,7 @@
 
 Console.Clear();
 Console.Write("Знаете, что такое палиндром?\nЭто натуральное число, которое читается слева направо и справа налево одинаково.\nВведите какое-нибудь, а я его прочитаю: ");
-int N = int.Parse(Console.ReadLine());
+int N = int.Parse(Console.ReadLine()!);
 List<int> digits = new List<int>(); // Создаем список из цифр введенного числа
 while (N > 0)
 {

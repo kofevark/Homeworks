@@ -5,7 +5,7 @@
 
 Console.Clear();
 Console.Write("Введите любое число: ");
-int N = Math.Abs(int.Parse(Console.ReadLine())); // Преобразовываем введенную строку в число
+int N = Math.Abs(int.Parse(Console.ReadLine()!)); // Преобразовываем введенную строку в число
 // и берем его по модулю
 Console.WriteLine($"Сумма всех цифр этого числа = {GetSum(N)}"); // Запуск метода
 // с вложением в него любого числа (в данном случае N) и печать результата

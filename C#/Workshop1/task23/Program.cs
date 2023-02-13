@@ -4,7 +4,7 @@
 
 Console.Clear();
 Console.Write("Введите число N: ");
-int N = int.Parse(Console.ReadLine());
+int N = int.Parse(Console.ReadLine()!);
 if (N > 0) // Для положительных чисел
 {
     int count = 1;

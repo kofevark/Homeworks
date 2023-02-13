@@ -5,7 +5,7 @@
 
 Console.Clear();
 Console.Write("Введите день недели: ");
-int day = int.Parse(Console.ReadLine());
+int day = int.Parse(Console.ReadLine()!);
 if (day == 6 || day == 7)
 {
     Console.Write("Поздравляю, сегодня");

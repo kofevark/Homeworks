@@ -5,11 +5,11 @@
 
 Console.Clear();
 Console.Write("Введите число: ");
-int firstNumber = int.Parse(Console.ReadLine());
+int firstNumber = int.Parse(Console.ReadLine()!);
 Console.Write("Введите еще одно число: ");
-int secondNumber = int.Parse(Console.ReadLine());
+int secondNumber = int.Parse(Console.ReadLine()!);
 Console.Write("И последнее число: ");
-int thirdNumber = int.Parse(Console.ReadLine());
+int thirdNumber = int.Parse(Console.ReadLine()!);
 int maxNumber = firstNumber;
 if (secondNumber > maxNumber) maxNumber = secondNumber;
 if (thirdNumber > maxNumber) maxNumber = thirdNumber;

@@ -4,7 +4,7 @@
 
 Console.Clear();
 Console.Write("Введите любое число, отличающееся от 1: ");
-int N = int.Parse(Console.ReadLine());
+int N = int.Parse(Console.ReadLine()!);
 if (N != 1) Console.WriteLine("Вот вам все четные числа от 1 до введенного:");
 int count = 1;
 if (N > 1)
