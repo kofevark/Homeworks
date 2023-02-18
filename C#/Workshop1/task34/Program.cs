@@ -4,7 +4,7 @@
 
 Console.Clear();
 Console.Write("Задайте размер массива: ");
-int size = int.Parse(Console.ReadLine()); // Инициализировали размер массива и присвоили ему число
+int size = int.Parse(Console.ReadLine()!); // Инициализировали размер массива и присвоили ему число
 int[] array = new int[size]; // Объявили массив заданного размера
 int counter = 0; // Переменная для подсчета четных чисел
 
